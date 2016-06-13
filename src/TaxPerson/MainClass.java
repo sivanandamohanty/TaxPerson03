@@ -13,7 +13,7 @@ public class MainClass {
 		System.out.println("Cost of " + ItemType.LUXURY + " is : " + dItemNecessary);
 		
 		double dItem1 = taxItem.calculateCostAfterTax(4, ItemType.NECESSARY);		
-		System.out.println("Cost of " + ItemType.LUXURY + " is : " + dItem1);
+		System.out.println("Cost of " + ItemType.NECESSARY + " is : " + dItem1);
 		
 		double dItemLuxary = taxItem.calculateCostAfterTax(3.00, ItemType.LUXURY);		
 		System.out.println("Cost of " + ItemType.LUXURY + " is : " + dItemLuxary);		
