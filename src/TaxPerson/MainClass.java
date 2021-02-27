@@ -25,7 +25,9 @@ public class MainClass {
 		System.out.println("API returned : " + dItemNegativeValue);	
 		
 		double dItemMoreThanTwoDecimalValue = taxItem.calculateCostAfterTax(5.002, ItemType.LUXURY);		
-		System.out.println("API returned : " + dItemMoreThanTwoDecimalValue);	
+		System.out.println("API returned : " + dItemMoreThanTwoDecimalValue);
+
+		//test line
 		
 
 		
